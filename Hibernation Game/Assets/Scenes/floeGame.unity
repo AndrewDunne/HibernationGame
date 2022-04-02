@@ -704,7 +704,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.33725488, g: 0.7719499, b: 0.9529412, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -742,6 +742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec66799ebc93b04cb446909e2f9147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invisSprite: {fileID: 0}
+  floeSprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
 --- !u!65 &1815271698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -883,6 +885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136026894}
   - component: {fileID: 2136026893}
+  - component: {fileID: 2136026895}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -917,3 +920,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2136026895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136026892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e3ae47ce93a1941a701ddfc49854eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

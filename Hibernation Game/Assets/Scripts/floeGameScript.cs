@@ -19,6 +19,7 @@ public class floeGameScript : MonoBehaviour
     {
         if(floesToBreak <= numFloesBroken)
         {
+            GlobalVars.completedMinigames++;
             SceneManager.LoadScene(sceneName: "mainMap");
         }
     }

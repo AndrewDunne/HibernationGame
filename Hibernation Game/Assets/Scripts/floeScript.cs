@@ -5,13 +5,16 @@ using System.Collections;
 
 public class floeScript : MonoBehaviour
 {
-    public Sprite newSprite;
+    public Sprite invisSprite;
+    public Sprite floeSprite;
+    bool canClick;
     int health = 5;
 
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log("Hi");
+        canClick = true;
     }
 
     // Update is called once per frame
@@ -20,15 +23,27 @@ public class floeScript : MonoBehaviour
         if (health <= 0)
         {
             floeGameScript.numFloesBroken++;
+            canClick = false;
+            health = 5;
             //Destroy(this.gameObject);
-            this.GetComponent<SpriteRenderer>().sprite = Circle;
+            this.GetComponent<SpriteRenderer>().sprite = invisSprite;
+            StartCoroutine(ExecuteAfterTime(2));
         }
     }
 
     void OnMouseDown()
     {
-        Debug.Log("Rekt");
-        // this object was clicked - do something
-        health--;
+        if (canClick == true) { 
+            //Debug.Log("Rekt");
+            // this object was clicked - do something
+            health--;
+        }
+    }
+
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        this.GetComponent<SpriteRenderer>().sprite = floeSprite;
+        canClick = true;
     }
 }

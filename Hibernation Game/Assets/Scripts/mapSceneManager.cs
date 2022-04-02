@@ -13,4 +13,8 @@ public class mapSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName: "floeGame");
     }
+    void Start()
+    {
+        Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
+    }
 }
