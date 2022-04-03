@@ -14,6 +14,7 @@ public class floeScript : MonoBehaviour
     bool canClick;
     int health = 15;
     AudioSource SFX;
+    AudioSource SceneSource;
     Vector3 weakSpotLoc;
 
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class floeScript : MonoBehaviour
         SFX = GetComponent<AudioSource>();
         weakSpotLoc.x = UnityEngine.Random.Range(214.0f, 660.0f);
         weakSpotLoc.y = UnityEngine.Random.Range(10.0f, 470.0f);
+        SceneSource = GameObject.Find("SceneManager").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -53,9 +55,8 @@ public class floeScript : MonoBehaviour
             SFX.pitch = myPitch;
             if(distance < 50)
             {
-                SFX.pitch = 0.65F;
-                SFX.PlayOneShot(crash, .6F);
-                SFX.PlayOneShot(shatter, .6F);
+                SceneSource.PlayOneShot(crash, .6F);
+                SceneSource.PlayOneShot(shatter, .6F);
                 health = 0;
             }
             else

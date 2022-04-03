@@ -18,8 +18,7 @@ public class floeGameScript : MonoBehaviour
         numFloesBroken = 0;
         gameStarted = false;
         gameEnded = false;
-        //floesToBreak = Random.Range(2,4);
-        floesToBreak = 1;
+        floesToBreak = Random.Range(2,4);
     }
 
     // Update is called once per frame

@@ -24,7 +24,7 @@ public class dialogSystem : MonoBehaviour
     {
         updates++;
         bool old = Time.timeSinceLevelLoad - initializationTime > .5;
-        if (updates == 3)
+        if (updates == 5)
         {
             textMesh.text = dialogs[dialogIndex];
         }
