@@ -167,6 +167,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324b0665d98302943b142ed515f8712f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gemTexts:
+  - {fileID: 2496498182299271412, guid: 99c1869a643e4114c92858d3a31089c9, type: 3}
+  - {fileID: 2496498182299271412, guid: 98808b9fc1ce68b40a19937a994e23f1, type: 3}
+  - {fileID: 2496498182299271412, guid: b8ccae65f61552643bc15abff5b71fb9, type: 3}
+  - {fileID: 2496498182299271412, guid: b316cd1fea1f25d43978fefad3ab2571, type: 3}
+  areaTexts:
+  - {fileID: 2496498182299271412, guid: 17527ebc0cba17e4fa25563ffe312ae8, type: 3}
+  - {fileID: 2496498182299271412, guid: ea0f1a03030d82045b399f7e34b56a79, type: 3}
+  - {fileID: 2496498182299271412, guid: 4052c95df79ce2643bef461addbbaeb0, type: 3}
   backgrounds:
   - {fileID: 21300000, guid: 85ca705aebb97ae42be3193ec5374526, type: 3}
   - {fileID: 21300000, guid: beab60d849e3e5847ac107376cdf6545, type: 3}

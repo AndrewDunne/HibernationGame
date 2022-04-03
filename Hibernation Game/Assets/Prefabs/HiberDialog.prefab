@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2496498182299271415}
   - component: {fileID: 2496498182299271414}
   m_Layer: 5
-  m_Name: DialogBox
+  m_Name: HiberDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,6 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - You did good.
+  - Now its their turn to sleep and mine to make sure that nothing distracts them.
   manager: {fileID: 0}
-  numDialogs: 0
+  numDialogs: 1
