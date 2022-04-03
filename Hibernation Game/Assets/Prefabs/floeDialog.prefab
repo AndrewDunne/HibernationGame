@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2496498182299271415}
   - component: {fileID: 2496498182299271414}
   m_Layer: 5
-  m_Name: DialogBox_EndFloe
+  m_Name: floeDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

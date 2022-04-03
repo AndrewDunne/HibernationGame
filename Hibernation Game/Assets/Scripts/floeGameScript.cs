@@ -35,7 +35,7 @@ public class floeGameScript : MonoBehaviour
             gameStarted = true;
             startTime = Time.timeSinceLevelLoad;
         }
-        if (GameObject.Find("DialogBox(Clone)") == null && gameEnded)
+        if (GameObject.Find("floeDialog(Clone)") == null && gameEnded && Time.timeSinceLevelLoad > startTime + 1)
         {
             GlobalVars.completedMinigames++;
             SceneManager.LoadScene(sceneName: "mainMap");
@@ -57,6 +57,7 @@ public class floeGameScript : MonoBehaviour
             //endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0] = "You did good";
             //Debug.Log(endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0]);
             //endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().numDialogs = 1;
+            startTime = Time.timeSinceLevelLoad;
             gameEnded = true;
         }
     }

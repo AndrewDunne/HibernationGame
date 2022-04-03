@@ -9,6 +9,7 @@ public class sleeperGameScript : MonoBehaviour
     bool[] visited = new bool[] { true, false, false, false, false }; // Will this stay the same even if scene is reloaded?
     public GameObject[] gemTexts;
     public GameObject[] areaTexts;
+    public GameObject[] gems;
     int currentGem;
     int currentRoom; // Room 0 is main corridor, 1 is medical area, 2 is dormitories
     // Start is called before the first frame update
