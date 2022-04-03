@@ -1,34 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class dialogSystem : MonoBehaviour
 {
-    public string[] names;// = new string[] { "Matt", "Joanne", "Robert" };
+    public string[] dialogs;
     int dialogIndex;
-    bool mouseDown = false;
+    private TextMeshProUGUI textMesh;
+    public GameObject manager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        textMesh = GetComponent<TextMeshProUGUI>();
+        textMesh.text = dialogs[dialogIndex];
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (mouseDown == false)
+            if (dialogIndex < dialogs.Length - 1)
             {
-                Debug.Log("Pressed left click.");
-                mouseDown = true;
+                dialogIndex++;
+                textMesh.text = dialogs[dialogIndex];
             }
-            
-        }
-        else
-        {
-            mouseDown = false;
-            Debug.Log("Released left click.");
+            else
+            {
+               // Call some function here before self destructing 
+               
+                Destroy(transform.parent.gameObject);
+            }
         }
     }
 }
