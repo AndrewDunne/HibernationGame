@@ -1,0 +1,4280 @@
+fileFormatVersion: 2
+guid: ac380e38e9fd1464898c85044190d25a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_icefloe-timer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f635d576cda71840b6cba42ab7a8a74
+      internalID: -456568314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abb73c0e6f83ba4582bf0660a68f358
+      internalID: -549072400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc99073146b0f42a5c61ccd50f2557
+      internalID: -198317802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7cdc15f5c57534aa8a50eda4463630
+      internalID: 689595696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f618538964a664d4b8837df1e4aaa6c3
+      internalID: 283056748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_5
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e8c6cb0946e644b850f82c0cd736f4
+      internalID: 2114885240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_6
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a304f40a5621d0428e1c37c807342fb
+      internalID: 1453038469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_7
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a0618ecded3d4a9ce4ae26e4d8504
+      internalID: 1732958163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_8
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514d7da3e168a7443bc329385016d957
+      internalID: -1948418635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_9
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125f42337d111144486c414c92427d88
+      internalID: 310524311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_10
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8445f5393703c94799799a69111c802
+      internalID: -571960879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_11
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516d09d80ef20bf438fb0719751e336d
+      internalID: 1575591153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_12
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a47b9977e9fa047a27d7414313ab5c
+      internalID: -1386567942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_13
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 234
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20214d6a03cb74daaf4aef6953b318
+      internalID: 1604416501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0689eb375fd5f4fbf24050d8ad1b21
+      internalID: -1017739649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d16cebea790080409dbb64092a0f4dd
+      internalID: -1240949609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6431927806a8b47a1d184c912a13be
+      internalID: -1149180583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae58c9158fb0e468fe02f7a00bd9f1
+      internalID: 1684895670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84d8ea9bdcc17e4e83a8955131b8392
+      internalID: 1787502195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_19
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d409a9a11d95449bd219e622f2a883
+      internalID: -887760661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_20
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d9f76fb7a3a543afba7b08c1ac10c
+      internalID: -691968485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_21
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4685f6a5737a9064b9723d2d9e0ef3f1
+      internalID: -1706176827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_22
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae623317edd76c4198ff77f273a6a1e
+      internalID: -373444548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_23
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5801128872c6ee344846ac1ed8717f3b
+      internalID: -1929628625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_24
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121a36073074d194e9bd653805a80970
+      internalID: 2105602424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_25
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6a54fdc9ca71448b9c97f8a9882f68
+      internalID: -1979109748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_26
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b267cff18d32a4aa89273cfcfea2d8
+      internalID: 343530350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_27
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 216
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb53bb51741264340995b63de5bc3dd1
+      internalID: 719836858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a90eb253b3f146a04fcfe8601c5df
+      internalID: -506573142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_29
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea06f78f5e20b64d98ba63a586cce0a
+      internalID: -1201494003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a265427dd3c9a44cb0af8f50fdd20d8
+      internalID: -426944341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_31
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ce2fdc18d86cf448a3fce38b145f0a
+      internalID: -1439474707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_32
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77979f892fcbc03439a790fe40c97910
+      internalID: 612327866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_33
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a4de2276188ab48b7c78113350199d
+      internalID: 1411441262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_34
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800466c1dca583645a7cf2fa4fbbc799
+      internalID: 344047744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_35
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f145c136d1f65499837639d3097d80
+      internalID: 269976598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_36
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0d4edeb226f6440b7d95e021fa3a05
+      internalID: -728035646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_37
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff05303848ab8434abb4d3f6c4b7bca8
+      internalID: 937113137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_38
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e42b70d09bcb4998a67f131828a6b
+      internalID: 1589601342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_39
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbdc25304f66fc46855087ab0f94c47
+      internalID: -608081854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_40
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d045789fedded845a30110aaeb83ee4
+      internalID: 902419902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_41
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 198
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b9f5d1751ab3438d4c6b867c4d3c4
+      internalID: -735392113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a60b96ddf86874daae6a0fececb4ce
+      internalID: 1072762353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a665599d9b46f774da4a7a6480d54272
+      internalID: -505547902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0d1a8e38cdc1e4cbb509c69806f16c
+      internalID: 968147716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_45
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f306b9088348a140a1532831b786560
+      internalID: -1133386109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b314f69776edc04eac8395cdd8fb479
+      internalID: 1455130036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_47
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0d63954775a9e44af0ded735e7acd5
+      internalID: -1372467698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_48
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68868c03454f9d4b9d2de2146f88865
+      internalID: -1465248678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_49
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812830f411215a14fbc50093e5643560
+      internalID: -254721156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_50
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a628531302554d0489104ef148b958cd
+      internalID: 2081024862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_51
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c554123324bae7c4ca45832b95e5f95f
+      internalID: -1401871573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_52
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c540a25e0c5f94f801e1f07bcee2c2
+      internalID: -587620174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_53
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f579a8e0cd42deb43a12005d62b876ba
+      internalID: -1034993210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_54
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a41dfdcb2668e443b2f9253521a012e
+      internalID: 434560152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_55
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 180
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48a02fe1176c5a428713c1c34ea272c
+      internalID: 80153143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ebddc158c24a24ea8777e2656a8e71
+      internalID: -1635561548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e29a3622b80d140bc8961355fed9f1
+      internalID: -258041847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9c796708c1b74485c53e5f75c40d0
+      internalID: -1702695485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_59
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9c2d78e25b41448a0b9e969dbe8f09
+      internalID: -2138546580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_60
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02383fff2592eb4c911234d927473ce
+      internalID: -2048546231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_61
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f223f867aa07649a5c8509ad0fcf8e
+      internalID: 2100611373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_62
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29acec65685b9ff40912122fc8881550
+      internalID: 674569968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_63
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce80d960f9e94e41a6fd9dbf1d94225
+      internalID: 1599262783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_64
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac07adc9c49c404fa273082084e711b
+      internalID: -2058076805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_65
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6a58ed904a34049a5843f73c8d71d1
+      internalID: -14276895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_66
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e66aeba0c4e2f42a2270e646b52471
+      internalID: 412656861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_67
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718ffd3141a3cc14da7243d54dff5b97
+      internalID: 1104224466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_68
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82ffcac1ae896246a311aa7c5abcb4b
+      internalID: 1026686453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_69
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 162
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bdf326bbbd2cd46b09fdbb41d28b6b
+      internalID: -1835826672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe2b3ede8235f4cb2a4fae89a3ca8f
+      internalID: -112249033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_71
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece43c1ee462c924b859111f64707db7
+      internalID: -904593423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_72
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba8d61bca9e631469de14197c9189af
+      internalID: -1843930140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_73
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7967c78e850f6e4d91261ca9f478b88
+      internalID: -1841388504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_74
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c91c96f2c3c2d240ad560ac3cffe337
+      internalID: -1687351026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_75
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2d8219e2130a04dae4600ae54e553f
+      internalID: 685930934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_76
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb65e3824aca25046b299a1b0183a8da
+      internalID: -1146941514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_77
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308bec9adbbb0634db2b453cf0e8bda9
+      internalID: 1505821100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_78
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df05c06009332242bbd7fcb313ba530
+      internalID: -859790985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_79
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8df0831a435f548aab4c5f0b2e800d
+      internalID: 2004940073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_80
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be60f12a7745a4eb94ba5bb67dbd2f
+      internalID: 1086205872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_81
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa06ea278916234fbce797c2c77a251
+      internalID: -1605396343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_82
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bac59f0fa2d0cd48ae746a0ab032adb
+      internalID: 528432288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_83
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 144
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f37e76103e9f149ab6bfa7cf9ab4f3
+      internalID: 1848179709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2674ad70a456a4d9419a04b28bfade
+      internalID: 177225889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_85
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccee7352b57871d48b2cc097a740d8f4
+      internalID: -1933518083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_86
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9411366a5e7b074dbf4d40205d99885
+      internalID: -383341183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_87
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d69c946b39133a47bf38ac0d3d02b35
+      internalID: -1658279517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_88
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f0ae4af3e4d1542baa2e2115010f50
+      internalID: -756412551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_89
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b76e3384d229c247b46a1d94e74ceb7
+      internalID: 1134324144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_90
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2f22c4b8f24cc4db722c7bcb6c6473
+      internalID: 2029353778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_91
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9fa06e6c93b74faf88b3ef4a74ba5
+      internalID: 1821862945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_92
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bd495a11fcf024b9c80db7fcfe2930
+      internalID: 796676734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_93
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad46f1083b532eb43bda97de1663739e
+      internalID: -367848985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_94
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898e2153eeb66f3438210e91c41da3c7
+      internalID: 430876917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_95
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f4d945572afb745be3226b3f1ab622
+      internalID: -591870751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_96
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b17aa07c7e47ed44996682ba5398af7
+      internalID: -293270996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_97
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 126
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f6e254bd3c2104dae8574025048a7f
+      internalID: -1848028052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b07b1c069fea046b518074c4a53a67
+      internalID: -357299774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_99
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935637a57a8bda345b8f95588c132d4f
+      internalID: -1944188693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_100
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bbd12eb2636a94399d87d8db7499b7
+      internalID: -499979682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_101
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a182409df69da4badd843d58a1f227
+      internalID: 1288843823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_102
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912303dbde5fdfa48be21c83cd4416e1
+      internalID: 2048665900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_103
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7356289b6cef28d42ad1e0b6ec420ffa
+      internalID: -1145683775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_104
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14eefc91ff2d1db48a5d2ce0854e63e2
+      internalID: -934424350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_105
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaca485ddb5f1c4790018c75fc76c7d
+      internalID: -302690948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_106
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e419a6e06f96fc4fa446d3f01a1f2d5
+      internalID: -1415374624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_107
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f774a78c7a9d67b4498d07bb88ccc9dc
+      internalID: 1906599448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_108
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e668ce1e7e0b134e8523915cbbe142d
+      internalID: 1555859089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_109
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974cd6466eb54743ad814ca68da576b
+      internalID: 1782465407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_110
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19c11874b2b907429bace0176eed35d
+      internalID: -1262782613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_111
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 108
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfeeb5e1a5ac304993a32f69afc2479
+      internalID: -582984757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83228d73de8be542aa34fbd23f48641
+      internalID: -245396065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_113
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8bf5909247b3b4e9c71651d081adfd
+      internalID: -1097424606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_114
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734b3c3149efa74b922df3830ce862c
+      internalID: -1398255394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_115
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786f462ec6e071443ad8ce2fc4f80dfe
+      internalID: 436356484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_116
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17726cb7eb271324db97b45c9b80de75
+      internalID: -345511829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_117
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a945124db9198a7448f2631c208c65b4
+      internalID: 614299007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_118
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2423824c6248e3459b5bb6fc9ce337b
+      internalID: 1574328440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_119
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadb8e72bd4f3284992dd0ca2a874787
+      internalID: 1755051090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_120
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08421bd14ec31c44ab7cce9c7f57aaf
+      internalID: -1884755685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_121
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd25d7e778ccb594f9167ab56de2de98
+      internalID: -1926137549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_122
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048a72e6a988ca24785cac49087bb0b8
+      internalID: -1862212463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_123
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec320d25cfd152e41b95e1b68595f54f
+      internalID: 1950795983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_124
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5622cf4f2fd774ba8bc7f4a66b778f
+      internalID: 1946322535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_125
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 90
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5bd42354b8cf041b69114462d6a2ad
+      internalID: 1513166245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942b385071e428458bf390fe81f985d
+      internalID: 1751530588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_127
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a256ee49252acf4c8f0f3b0d2ecda11
+      internalID: 1828280070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_128
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcd34ed599dba544a7732338ad6e1d3
+      internalID: -1161031671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_129
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa999cf60df57a448d96bc4021c87be
+      internalID: -1619589813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_130
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b56f2f9db19234783d5a7b5cf45e12
+      internalID: -33659891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_131
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3c7af5874feec4ca2af7451eb6a9a2
+      internalID: 1426910100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_132
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc0fee1ae3f74b45b88e9d5922a8a4a
+      internalID: -1535904324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_133
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604adaf4111f2644bb27c8f04936f5a9
+      internalID: -2103483556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_134
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9316902dde1c4ba25c6345ddae37a
+      internalID: -1506075913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_135
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762dbab5d79e8f349b4b39601f413cba
+      internalID: 1739014714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_136
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345ddaf1e7ebade45942b23ae63708c7
+      internalID: 263530238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_137
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a12f461b1af83a4789f7bd30dfeaeda
+      internalID: -441936385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_138
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a6d34336c3554096639ddf0f5c9e0
+      internalID: -856658062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_139
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 72
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc29bc5413ed85b419a72ffcaa36a358
+      internalID: -2014609803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7921638256658f84da7676442358d391
+      internalID: 830569261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_141
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ddbe0c9d1d7b84eb46ae6ca1ed9092
+      internalID: 1320899097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_142
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7666c30010e2b41a40d7901aef57f0
+      internalID: 1074945351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_143
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f77cef60a71f184a86b82c186323dee
+      internalID: 1879477370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_144
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a217157fbf639c409d49cf95c018930
+      internalID: -726606803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_145
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c3c2957c16e4649a8dc3ada7ae75d1
+      internalID: -1974303895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_146
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4785c81abffd99b41ab61bdd398fb8ee
+      internalID: -967016551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_147
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79dbc99ca2fd94428cbfffba9d2f945
+      internalID: 1017362311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_148
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3408b349589104e48b7e6312b7ce4a13
+      internalID: -1720921055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_149
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14f2d543c1dec49b4a14f5b8eb23d5
+      internalID: -870982135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_150
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d56ac5e0c702a54dafaf7b9af97b721
+      internalID: -784026283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_151
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8301e12b09fd2a3489169a9a5967a121
+      internalID: 1100762597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_152
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52366723090d5c24b9f1650de52b073f
+      internalID: 1761967792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_153
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 54
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777039ac659891447a644de73fdc5f67
+      internalID: -1637316235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec107efdf3611d468ffc98aa304bb56
+      internalID: -2021942387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_155
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681c19b30c14af4da26014c53104795
+      internalID: -318130658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_156
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b965eafd68b5546459f1003d2e0b3269
+      internalID: 638864946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_157
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46da9d7432496eb4289de3ad50fd8de6
+      internalID: 1290386608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_158
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0004826aa46bc594e89fc12efbe7bf5b
+      internalID: -332852125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_159
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d2703a980963e4386323f5b50098e0
+      internalID: 2013189285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_160
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e059a2a8c2e91b7478877f57cae6ae10
+      internalID: -1182283907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_161
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8374cc99ed0fbd54483209345cce13f0
+      internalID: -97155449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_162
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4fd9628ef7e654a85897393d3d8af4
+      internalID: 1944913722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_163
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055faa6375fff814d8e577931c129a4d
+      internalID: 5347167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_164
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f66efe7b7d344a99fe372377b6873
+      internalID: -1537841422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_165
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6fe54a97929b548a87593fb083d8e1
+      internalID: 1620086091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_166
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2bb47d44fbe6a4bb625b2bca6ed470
+      internalID: 15520556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_167
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 36
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9900021370aa5e944af78415d5254406
+      internalID: -1455276613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bcc809fdebf9348a6cece393971000
+      internalID: 1021794082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_169
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700a99f706fd39498c8dfb893d48e9f
+      internalID: 1639130091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_170
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e72069c17d5944bca0b3853a53617
+      internalID: -1769716003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_171
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f793e7a2f2a69a943a8d2ae58e2dfbf3
+      internalID: -2055429333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_172
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94f0325b16f75d418b828d28abe3f85
+      internalID: 456656304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_173
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dd52375eb09ab4aa0c88c915988d68
+      internalID: -1556559405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_174
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec5faabe612d7d4ab0b32c06dc3ba76
+      internalID: -699533242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_175
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd501a0afa5cb46a649918a0e84f39
+      internalID: 1557019404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_176
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d14488ed76dbc48bd348dc5d852c1b
+      internalID: 1665420458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_177
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da456f76eee9334aa810ab4e11f6430
+      internalID: -435163177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_178
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40eca2f25d63c84581f02603a1c05be
+      internalID: 521834738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_179
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f8d9200f6d41040ae6be8333106f55
+      internalID: -244667264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_180
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72d4d11565a4e140be339211bba473c
+      internalID: 2146497469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_181
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 18
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc494479dac1cb4da85a3e980c28ab2
+      internalID: 1148282328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90850a3e5e5ce94492eedc3268fd58d
+      internalID: 1240548539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_183
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b763efae4b7b392429d912cbd09a536e
+      internalID: 2121098612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_184
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a904aa165d82444aa058cc9076306f
+      internalID: -2094324940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_185
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b75b6dd02700e641af44e01c29ae01d
+      internalID: -1322143279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_186
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bcbe16a92793b4fb2f8005a18cccfc
+      internalID: -443659424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_187
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff312301d4d29ca408662b19ae5514bf
+      internalID: -1227343996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_icefloe-timer_188
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 0
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ce34f23d362d6459540f7edd4659e8
+      internalID: 1114996787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_icefloe-timer_94: 430876917
+      UI_icefloe-timer_79: 2004940073
+      UI_icefloe-timer_92: 796676734
+      UI_icefloe-timer_80: 1086205872
+      UI_icefloe-timer_160: -1182283907
+      UI_icefloe-timer_178: 521834738
+      UI_icefloe-timer_155: -318130658
+      UI_icefloe-timer_30: -426944341
+      UI_icefloe-timer_48: -1465248678
+      UI_icefloe-timer_101: 1288843823
+      UI_icefloe-timer_116: -345511829
+      UI_icefloe-timer_128: -1161031671
+      UI_icefloe-timer_43: -505547902
+      UI_icefloe-timer_47: -1372467698
+      UI_icefloe-timer_133: -2103483556
+      UI_icefloe-timer_177: -435163177
+      UI_icefloe-timer_166: 15520556
+      UI_icefloe-timer_18: 1787502195
+      UI_icefloe-timer_146: -967016551
+      UI_icefloe-timer_120: -1884755685
+      UI_icefloe-timer_135: 1739014714
+      UI_icefloe-timer_127: 1828280070
+      UI_icefloe-timer_93: -367848985
+      UI_icefloe-timer_97: -1848028052
+      UI_icefloe-timer_38: 1589601342
+      UI_icefloe-timer_159: 2013189285
+      UI_icefloe-timer_102: 2048665900
+      UI_icefloe-timer_184: -2094324940
+      UI_icefloe-timer_70: -112249033
+      UI_icefloe-timer_14: -1017739649
+      UI_icefloe-timer_117: 614299007
+      UI_icefloe-timer_41: -735392113
+      UI_icefloe-timer_77: 1505821100
+      UI_icefloe-timer_147: 1017362311
+      UI_icefloe-timer_67: 1104224466
+      UI_icefloe-timer_152: 1761967792
+      UI_icefloe-timer_82: 528432288
+      UI_icefloe-timer_104: -934424350
+      UI_icefloe-timer_50: 2081024862
+      UI_icefloe-timer_66: 412656861
+      UI_icefloe-timer_96: -293270996
+      UI_icefloe-timer_56: -1635561548
+      UI_icefloe-timer_124: 1946322535
+      UI_icefloe-timer_90: 2029353778
+      UI_icefloe-timer_145: -1974303895
+      UI_icefloe-timer_174: -699533242
+      UI_icefloe-timer_24: 2105602424
+      UI_icefloe-timer_36: -728035646
+      UI_icefloe-timer_119: 1755051090
+      UI_icefloe-timer_186: -443659424
+      UI_icefloe-timer_144: -726606803
+      UI_icefloe-timer_4: 283056748
+      UI_icefloe-timer_81: -1605396343
+      UI_icefloe-timer_158: -332852125
+      UI_icefloe-timer_140: 830569261
+      UI_icefloe-timer_60: -2048546231
+      UI_icefloe-timer_75: 685930934
+      UI_icefloe-timer_16: -1149180583
+      UI_icefloe-timer_179: -244667264
+      UI_icefloe-timer_62: 674569968
+      UI_icefloe-timer_44: 968147716
+      UI_icefloe-timer_163: 5347167
+      UI_icefloe-timer_126: 1751530588
+      UI_icefloe-timer_45: -1133386109
+      UI_icefloe-timer_115: 436356484
+      UI_icefloe-timer_78: -859790985
+      UI_icefloe-timer_134: -1506075913
+      UI_icefloe-timer_12: -1386567942
+      UI_icefloe-timer_3: 689595696
+      UI_icefloe-timer_57: -258041847
+      UI_icefloe-timer_89: 1134324144
+      UI_icefloe-timer_103: -1145683775
+      UI_icefloe-timer_148: -1720921055
+      UI_icefloe-timer_19: -887760661
+      UI_icefloe-timer_13: 1604416501
+      UI_icefloe-timer_111: -582984757
+      UI_icefloe-timer_83: 1848179709
+      UI_icefloe-timer_156: 638864946
+      UI_icefloe-timer_51: -1401871573
+      UI_icefloe-timer_106: -1415374624
+      UI_icefloe-timer_23: -1929628625
+      UI_icefloe-timer_35: 269976598
+      UI_icefloe-timer_132: -1535904324
+      UI_icefloe-timer_31: -1439474707
+      UI_icefloe-timer_182: 1240548539
+      UI_icefloe-timer_7: 1732958163
+      UI_icefloe-timer_176: 1665420458
+      UI_icefloe-timer_188: 1114996787
+      UI_icefloe-timer_118: 1574328440
+      UI_icefloe-timer_69: -1835826672
+      UI_icefloe-timer_88: -756412551
+      UI_icefloe-timer_141: 1320899097
+      UI_icefloe-timer_98: -357299774
+      UI_icefloe-timer_142: 1074945351
+      UI_icefloe-timer_175: 1557019404
+      UI_icefloe-timer_137: -441936385
+      UI_icefloe-timer_25: -1979109748
+      UI_icefloe-timer_5: 2114885240
+      UI_icefloe-timer_72: -1843930140
+      UI_icefloe-timer_42: 1072762353
+      UI_icefloe-timer_0: -456568314
+      UI_icefloe-timer_65: -14276895
+      UI_icefloe-timer_161: -97155449
+      UI_icefloe-timer_114: -1398255394
+      UI_icefloe-timer_165: 1620086091
+      UI_icefloe-timer_105: -302690948
+      UI_icefloe-timer_46: 1455130036
+      UI_icefloe-timer_9: 310524311
+      UI_icefloe-timer_52: -587620174
+      UI_icefloe-timer_85: -1933518083
+      UI_icefloe-timer_10: -571960879
+      UI_icefloe-timer_21: -1706176827
+      UI_icefloe-timer_28: -506573142
+      UI_icefloe-timer_113: -1097424606
+      UI_icefloe-timer_108: 1555859089
+      UI_icefloe-timer_131: 1426910100
+      UI_icefloe-timer_109: 1782465407
+      UI_icefloe-timer_154: -2021942387
+      UI_icefloe-timer_73: -1841388504
+      UI_icefloe-timer_8: -1948418635
+      UI_icefloe-timer_49: -254721156
+      UI_icefloe-timer_39: -608081854
+      UI_icefloe-timer_40: 902419902
+      UI_icefloe-timer_61: 2100611373
+      UI_icefloe-timer_110: -1262782613
+      UI_icefloe-timer_33: 1411441262
+      UI_icefloe-timer_151: 1100762597
+      UI_icefloe-timer_54: 434560152
+      UI_icefloe-timer_29: -1201494003
+      UI_icefloe-timer_6: 1453038469
+      UI_icefloe-timer_15: -1240949609
+      UI_icefloe-timer_71: -904593423
+      UI_icefloe-timer_157: 1290386608
+      UI_icefloe-timer_55: 80153143
+      UI_icefloe-timer_172: 456656304
+      UI_icefloe-timer_169: 1639130091
+      UI_icefloe-timer_2: -198317802
+      UI_icefloe-timer_129: -1619589813
+      UI_icefloe-timer_37: 937113137
+      UI_icefloe-timer_76: -1146941514
+      UI_icefloe-timer_63: 1599262783
+      UI_icefloe-timer_180: 2146497469
+      UI_icefloe-timer_68: 1026686453
+      UI_icefloe-timer_91: 1821862945
+      UI_icefloe-timer_26: 343530350
+      UI_icefloe-timer_187: -1227343996
+      UI_icefloe-timer_167: -1455276613
+      UI_icefloe-timer_173: -1556559405
+      UI_icefloe-timer_20: -691968485
+      UI_icefloe-timer_64: -2058076805
+      UI_icefloe-timer_22: -373444548
+      UI_icefloe-timer_138: -856658062
+      UI_icefloe-timer_181: 1148282328
+      UI_icefloe-timer_74: -1687351026
+      UI_icefloe-timer_123: 1950795983
+      UI_icefloe-timer_84: 177225889
+      UI_icefloe-timer_59: -2138546580
+      UI_icefloe-timer_125: 1513166245
+      UI_icefloe-timer_162: 1944913722
+      UI_icefloe-timer_139: -2014609803
+      UI_icefloe-timer_171: -2055429333
+      UI_icefloe-timer_121: -1926137549
+      UI_icefloe-timer_107: 1906599448
+      UI_icefloe-timer_143: 1879477370
+      UI_icefloe-timer_150: -784026283
+      UI_icefloe-timer_87: -1658279517
+      UI_icefloe-timer_168: 1021794082
+      UI_icefloe-timer_86: -383341183
+      UI_icefloe-timer_185: -1322143279
+      UI_icefloe-timer_149: -870982135
+      UI_icefloe-timer_32: 612327866
+      UI_icefloe-timer_130: -33659891
+      UI_icefloe-timer_170: -1769716003
+      UI_icefloe-timer_58: -1702695485
+      UI_icefloe-timer_34: 344047744
+      UI_icefloe-timer_136: 263530238
+      UI_icefloe-timer_11: 1575591153
+      UI_icefloe-timer_95: -591870751
+      UI_icefloe-timer_122: -1862212463
+      UI_icefloe-timer_17: 1684895670
+      UI_icefloe-timer_153: -1637316235
+      UI_icefloe-timer_100: -499979682
+      UI_icefloe-timer_27: 719836858
+      UI_icefloe-timer_1: -549072400
+      UI_icefloe-timer_183: 2121098612
+      UI_icefloe-timer_164: -1537841422
+      UI_icefloe-timer_53: -1034993210
+      UI_icefloe-timer_99: -1944188693
+      UI_icefloe-timer_112: -245396065
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

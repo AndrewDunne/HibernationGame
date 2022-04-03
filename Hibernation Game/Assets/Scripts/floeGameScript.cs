@@ -8,11 +8,13 @@ public class floeGameScript : MonoBehaviour
     public static int numFloesBroken { get; set; }
     public GameObject floe;
     public GameObject endText;
+    public GameObject timer;
     int floesToBreak;
     bool gameStarted;
     bool gameEnded;
     float startTime;
     GameObject myFloe;
+    GameObject myTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class floeGameScript : MonoBehaviour
         if (GameObject.Find("DialogBox") == null && !gameStarted)
         {
             myFloe = Instantiate(floe, new Vector3(0, 0, 0), Quaternion.identity);
+            myTimer = Instantiate(timer, new Vector3(0, 7.5f, 0), Quaternion.identity);
             gameStarted = true;
             startTime = Time.timeSinceLevelLoad;
         }
@@ -45,12 +48,14 @@ public class floeGameScript : MonoBehaviour
         //    gameEnded = true;
 
         //}
-        if (Time.timeSinceLevelLoad > startTime + 5 && !gameEnded)
+        if (Time.timeSinceLevelLoad > startTime + 30 && !gameEnded)
         {
             Destroy(myFloe);
+            Destroy(myTimer);
             Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
-            Debug.Log("added");
             endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs.Add("You did good");
+            endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0] = "You did good";
+            Debug.Log(endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0]);
             endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().numDialogs = 1;
             gameEnded = true;
         }
