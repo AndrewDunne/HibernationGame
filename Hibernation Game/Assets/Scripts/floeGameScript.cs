@@ -11,6 +11,7 @@ public class floeGameScript : MonoBehaviour
     int floesToBreak;
     bool gameStarted;
     bool gameEnded;
+    float startTime;
     GameObject myFloe;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class floeGameScript : MonoBehaviour
         gameStarted = false;
         gameEnded = false;
         floesToBreak = Random.Range(2,4);
+        startTime = 999;
     }
 
     // Update is called once per frame
@@ -28,25 +30,29 @@ public class floeGameScript : MonoBehaviour
         {
             myFloe = Instantiate(floe, new Vector3(0, 0, 0), Quaternion.identity);
             gameStarted = true;
+            startTime = Time.timeSinceLevelLoad;
         }
         if (GameObject.Find("DialogBox(Clone)") == null && gameEnded)
         {
             GlobalVars.completedMinigames++;
             SceneManager.LoadScene(sceneName: "mainMap");
         }
-        if (floesToBreak <= numFloesBroken && !gameEnded)
+        //if (floesToBreak <= numFloesBroken && !gameEnded)
+        //{
+        //    Destroy(myFloe);
+        //    Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+        //    endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs.Add("You did good");
+        //    gameEnded = true;
+
+        //}
+        if (Time.timeSinceLevelLoad > startTime + 5 && !gameEnded)
         {
             Destroy(myFloe);
             Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+            Debug.Log("added");
             endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs.Add("You did good");
-            //StartCoroutine(delayedEndGame(2));
+            endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().numDialogs = 1;
             gameEnded = true;
-
         }
     }
-    //IEnumerator delayedEndGame(float time)
-    //{
-    //    yield return new WaitForSeconds(time);
-    //    gameEnded = true;
-    //}
 }

@@ -10,34 +10,40 @@ public class dialogSystem : MonoBehaviour
     private TextMeshProUGUI textMesh;
     public GameObject manager;
     private float initializationTime;
-    int updates;
+    public int numDialogs;
+    bool textInit;
     // Start is called before the first frame update
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
         initializationTime = Time.timeSinceLevelLoad;
-        updates = 0;
+        textInit = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        updates++;
-        bool old = Time.timeSinceLevelLoad - initializationTime > .5;
-        if (updates == 5)
+        Debug.Log(dialogs.Count);
+        bool old = Time.timeSinceLevelLoad - initializationTime > .5; // player can't advance text for first .5 secs, prevents from missing info
+        if (dialogs.Count > 0 && !textInit)
         {
             textMesh.text = dialogs[dialogIndex];
+            textInit = true;
+            Debug.Log("Dialog count at init: " + dialogs.Count);
         }
-        if (Input.GetMouseButtonDown(0) && old)
+        if (Input.GetMouseButtonDown(0) && old && textInit)
         {
-            if (dialogIndex < dialogs.Count - 1)
+            if (dialogIndex < numDialogs - 1)
             {
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];
+                Debug.Log("next");
+                Debug.Log(dialogs[dialogIndex]);
+                Debug.Log(dialogs);
+                Debug.Log(dialogs.Count);
             }
             else
             {
-                // Call some function here before self destructing 
                Debug.Log("Dialog ended");
                Destroy(transform.parent.gameObject);
             }
