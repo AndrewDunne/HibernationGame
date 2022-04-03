@@ -10,12 +10,14 @@ public class floeGameScript : MonoBehaviour
     public GameObject endText;
     int floesToBreak;
     bool gameStarted;
+    bool gameEnded;
     GameObject myFloe;
     // Start is called before the first frame update
     void Start()
     {
         numFloesBroken = 0;
         gameStarted = false;
+        gameEnded = false;
         //floesToBreak = Random.Range(2,4);
         floesToBreak = 1;
     }
@@ -28,15 +30,24 @@ public class floeGameScript : MonoBehaviour
             myFloe = Instantiate(floe, new Vector3(0, 0, 0), Quaternion.identity);
             gameStarted = true;
         }
-        if (floesToBreak <= numFloesBroken)
+        if (GameObject.Find("DialogBox(Clone)") == null && gameEnded)
+        {
+            GlobalVars.completedMinigames++;
+            SceneManager.LoadScene(sceneName: "mainMap");
+        }
+        if (floesToBreak <= numFloesBroken && !gameEnded)
         {
             Destroy(myFloe);
-            Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity);
-            //Debug.Log(endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>());
+            Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
             endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs.Add("You did good");
-            
-            //GlobalVars.completedMinigames++;
-            //SceneManager.LoadScene(sceneName: "mainMap");
+            //StartCoroutine(delayedEndGame(2));
+            gameEnded = true;
+
         }
     }
+    //IEnumerator delayedEndGame(float time)
+    //{
+    //    yield return new WaitForSeconds(time);
+    //    gameEnded = true;
+    //}
 }

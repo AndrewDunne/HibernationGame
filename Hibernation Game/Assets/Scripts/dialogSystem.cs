@@ -9,17 +9,26 @@ public class dialogSystem : MonoBehaviour
     int dialogIndex;
     private TextMeshProUGUI textMesh;
     public GameObject manager;
+    private float initializationTime;
+    int updates;
     // Start is called before the first frame update
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
-        textMesh.text = dialogs[dialogIndex];
+        initializationTime = Time.timeSinceLevelLoad;
+        updates = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        updates++;
+        bool old = Time.timeSinceLevelLoad - initializationTime > .5;
+        if (updates == 3)
+        {
+            textMesh.text = dialogs[dialogIndex];
+        }
+        if (Input.GetMouseButtonDown(0) && old)
         {
             if (dialogIndex < dialogs.Count - 1)
             {
@@ -28,9 +37,9 @@ public class dialogSystem : MonoBehaviour
             }
             else
             {
-               // Call some function here before self destructing 
-               
-                Destroy(transform.parent.gameObject);
+                // Call some function here before self destructing 
+               Debug.Log("Dialog ended");
+               Destroy(transform.parent.gameObject);
             }
         }
     }
