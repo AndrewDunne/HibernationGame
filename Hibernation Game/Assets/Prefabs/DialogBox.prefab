@@ -226,4 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d1c195df435c142a7bb4dcecc7fdd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  names: []
+  dialogs:
+  - Hi
+  - Message 2
+  - numba 3
+  manager: {fileID: 0}

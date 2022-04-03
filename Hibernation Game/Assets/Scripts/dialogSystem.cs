@@ -5,7 +5,7 @@ using TMPro;
 
 public class dialogSystem : MonoBehaviour
 {
-    public string[] dialogs;
+    public List<string> dialogs;
     int dialogIndex;
     private TextMeshProUGUI textMesh;
     public GameObject manager;
@@ -21,7 +21,7 @@ public class dialogSystem : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (dialogIndex < dialogs.Length - 1)
+            if (dialogIndex < dialogs.Count - 1)
             {
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];

@@ -19,11 +19,10 @@ public class floeScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hi");
         canClick = true;
         SFX = GetComponent<AudioSource>();
-        weakSpotLoc.x = UnityEngine.Random.Range(200.0f, 350.0f);
-        weakSpotLoc.y = UnityEngine.Random.Range(350.0f, 500.0f);
+        weakSpotLoc.x = UnityEngine.Random.Range(214.0f, 660.0f);
+        weakSpotLoc.y = UnityEngine.Random.Range(10.0f, 470.0f);
     }
 
     // Update is called once per frame
@@ -34,8 +33,9 @@ public class floeScript : MonoBehaviour
             floeGameScript.numFloesBroken++;
             canClick = false;
             health = 15;
-            //Destroy(this.gameObject);
             this.GetComponent<SpriteRenderer>().sprite = invisSprite;
+            weakSpotLoc.x = UnityEngine.Random.Range(214.0f, 660.0f);
+            weakSpotLoc.y = UnityEngine.Random.Range(10.0f, 470.0f);
             StartCoroutine(ExecuteAfterTime(2));
         }
     }
@@ -48,15 +48,19 @@ public class floeScript : MonoBehaviour
             //Debug.Log(mousePos.x);
             //Debug.Log(mousePos.y);
             float distance = MathF.Sqrt(MathF.Pow(mousePos.x - weakSpotLoc.x,2) + MathF.Pow(mousePos.y - weakSpotLoc.y,2));
-            Debug.Log(distance);
-            SFX.pitch = (float)(1 / MathF.Log((distance / 2000.0f) + 1.05f));
+            //Debug.Log(distance);
+            float myPitch = (float)(.2 / MathF.Log((distance / 2000.0f) + 1.05f));
+            SFX.pitch = myPitch;
             if(distance < 50)
             {
+                SFX.pitch = 0.65F;
+                SFX.PlayOneShot(crash, .6F);
+                SFX.PlayOneShot(shatter, .6F);
                 health = 0;
             }
             else
             {
-                SFX.PlayOneShot(clink, .5F);
+                SFX.PlayOneShot(clink, myPitch/6);
             }
         }
     }
