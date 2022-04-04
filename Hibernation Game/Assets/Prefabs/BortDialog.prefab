@@ -227,7 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - There are times when i am grateful that i don't interact with others a lot,
-  - This is one of them.
+  - There  are  times  when  I  am  grateful  that  I  don't  interact  with  others 
+    much,
+  - This  is  one  of  them.
   manager: {fileID: 0}
   numDialogs: 2

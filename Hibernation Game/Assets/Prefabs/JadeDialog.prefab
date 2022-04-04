@@ -227,7 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - From little what i have heard and know, we might have been good patrol partners.
-  - If the circumstances were different i mean.
+  - From  what  little  I  have  heard  and  know,  we  might  have  been  good 
+    patrol  partners.
+  - If  the  circumstances  were  different  I  mean.
   manager: {fileID: 0}
   numDialogs: 2

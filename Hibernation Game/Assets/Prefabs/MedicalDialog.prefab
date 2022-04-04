@@ -227,6 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - No docter here in the winter, but i have some skills of my own.
+  - No  doctor  here  in  the  winter,  but  I  have  some  skills  of  my  own.
   manager: {fileID: 0}
   numDialogs: 1

@@ -49,12 +49,13 @@ public class sleeperGameScript : MonoBehaviour
         gameOver = false;
         GameObject.Find("leftButton").GetComponent<Image>().color = transparent;
         GameObject.Find("RightButton").GetComponent<Image>().color = transparent;
+        Instantiate(areaTexts[currentRoom], new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("DialogBox") == null && !gameStarted) // Entry dialog done
+        if (GameObject.Find(areaTexts[currentRoom].name + "(Clone)") == null && !gameStarted) // Entry dialog done
         {
             //myFloe = Instantiate(floe, new Vector3(0, 0, 0), Quaternion.identity);
             //myTimer = Instantiate(timer, new Vector3(0, 7.5f, 0), Quaternion.identity);
@@ -74,7 +75,7 @@ public class sleeperGameScript : MonoBehaviour
         {
             GameObject.Find("leftButton").GetComponent<Image>().color = transparent;
             GameObject.Find("RightButton").GetComponent<Image>().color = transparent;
-            Instantiate(gemTexts[currentGem], new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+            Instantiate(gemTexts[currentGem], new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
             gameOver = true;
         }
         if (gameOver && GameObject.Find(gemTexts[currentGem].name + "(Clone)") == null)

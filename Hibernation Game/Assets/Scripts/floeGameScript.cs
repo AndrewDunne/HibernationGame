@@ -52,7 +52,7 @@ public class floeGameScript : MonoBehaviour
         {
             Destroy(myFloe);
             Destroy(myTimer);
-            Instantiate(endText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+            Instantiate(endText, new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
             //endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs.Add("You did good");
             //endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0] = "You did good";
             //Debug.Log(endText.transform.GetChild(0).gameObject.GetComponent<dialogSystem>().dialogs[0]);

@@ -227,6 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - Sometimes those who constantly help others need help themselves.
+  - Sometimes  those  who  constantly  help  others  need  help  themselves.
   manager: {fileID: 0}
   numDialogs: 1

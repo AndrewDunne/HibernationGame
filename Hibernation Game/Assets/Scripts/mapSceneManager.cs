@@ -7,6 +7,7 @@ public class mapSceneManager : MonoBehaviour
 {
     public GameObject floeText;
     public GameObject sleepText;
+    public GameObject introText;
     bool clickable;
     public void sleeperGameClicked()
     {
@@ -19,7 +20,7 @@ public class mapSceneManager : MonoBehaviour
             else
             {
                 // already did sleep dialog
-                Instantiate(sleepText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+                Instantiate(sleepText, new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
                 clickable = false;
             }
         }
@@ -35,7 +36,7 @@ public class mapSceneManager : MonoBehaviour
             else
             {
                 // already did floe dialog
-                Instantiate(floeText, new Vector3(0, 0, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+                Instantiate(floeText, new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
                 clickable = false;
             }
         }
@@ -49,6 +50,13 @@ public class mapSceneManager : MonoBehaviour
             GlobalVars.floeDone = false;
             GlobalVars.day++;
         }
+        if (GlobalVars.intro == false)
+        {
+            // intro sequence
+            GlobalVars.intro = true;
+            clickable = false;
+            Instantiate(introText, new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+        }
         if (GlobalVars.day == 4)
         {
             // end sequence
@@ -56,7 +64,7 @@ public class mapSceneManager : MonoBehaviour
     }
     void Update()
     {
-        if(!clickable && GameObject.Find(floeText.name + "(Clone)") == null && GameObject.Find(sleepText.name + "(Clone)") == null)
+        if(!clickable && GameObject.Find(floeText.name + "(Clone)") == null && GameObject.Find(sleepText.name + "(Clone)") == null && GameObject.Find(introText.name + "(Clone)") == null)
         {
             clickable = true;
         }

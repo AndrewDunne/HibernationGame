@@ -227,7 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - Same me, same corridor.
-  - Good to see that some things in this world are as static as we are.
+  - Same  me,  same  main  hall.
+  - Good  to  see  that  some  things  in  this  world  are  as  static  as  we 
+    are.
   manager: {fileID: 0}
   numDialogs: 2

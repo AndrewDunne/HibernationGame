@@ -28,4 +28,6 @@ public static class GlobalVars
     public static int completedMinigames { get; set; }
     public static bool floeDone { get; set; }
     public static bool sleepDone { get; set; }
+    public static bool eventDone { get; set; }
+    public static bool intro { get; set; }
 }

@@ -227,6 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogs:
-  - So much potential... yet such childish delivery.
+  - So  much  potential...  yet  such  childish  delivery.
   manager: {fileID: 0}
   numDialogs: 1
