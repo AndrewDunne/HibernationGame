@@ -8,6 +8,7 @@ public class mapSceneManager : MonoBehaviour
     public GameObject floeText;
     public GameObject sleepText;
     public GameObject introText;
+    public GameObject activator;
     bool clickable;
     public void sleeperGameClicked()
     {
@@ -45,12 +46,29 @@ public class mapSceneManager : MonoBehaviour
             }
         }
     }
+    public void eventGameClicked()
+    {
+        if (clickable)
+        {
+            if (!GlobalVars.eventDone)
+            {
+                SceneManager.LoadScene(sceneName: "floeGame");
+                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+                StartCoroutine(fadeOutFloe(2));
+            }
+        }
+    }
     void Start()
     {
 
         GameObject.FindGameObjectWithTag("music").GetComponent<musicScript>().PlayMusic();
 
-        Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
+        if (GlobalVars.eventDone == true)
+        {
+            DestroyObject(GameObject.Find("eventGame"));
+        }
+
+        //Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
         if(GlobalVars.sleepDone == true && GlobalVars.floeDone == true)
         {
             GlobalVars.sleepDone = false;
@@ -63,6 +81,7 @@ public class mapSceneManager : MonoBehaviour
             GlobalVars.intro = true;
             clickable = false;
             Instantiate(introText, new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
+            Instantiate(activator, new Vector3(680, 95, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
         }
         if (GlobalVars.day == 4)
         {
