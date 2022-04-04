@@ -36,7 +36,7 @@ public class dialogSystem : MonoBehaviour
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];
                 GameObject.Find("DialogEmote").GetComponent<Image>().sprite = GlobalVars.Emotes[emotesIndex[dialogIndex]];
-                GameObject.Find("DialogAudio").GetComponent<AudioSource>().pitch = Random.Range(.8f, .9f);
+                //GameObject.Find("DialogAudio").GetComponent<AudioSource>().pitch = Random.Range(.8f, .9f);
                 GameObject.Find("DialogAudio").GetComponent<AudioSource>().PlayOneShot(GlobalVars.dialogSqueak,.5f);
                 //Debug.Log("next");
                 //Debug.Log(dialogs[dialogIndex]);

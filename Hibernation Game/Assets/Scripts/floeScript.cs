@@ -22,8 +22,8 @@ public class floeScript : MonoBehaviour
     {
         canClick = true;
         SFX = GetComponent<AudioSource>();
-        weakSpotLoc.x = UnityEngine.Random.Range(214.0f, 660.0f);
-        weakSpotLoc.y = UnityEngine.Random.Range(10.0f, 470.0f);
+        weakSpotLoc.x = UnityEngine.Random.Range(250.0f, 600.0f);
+        weakSpotLoc.y = UnityEngine.Random.Range(10.0f, 370.0f);
         SceneSource = GameObject.Find("SceneManager").GetComponent<AudioSource>();
     }
 

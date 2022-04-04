@@ -5,6 +5,8 @@ using System;
 
 public class sleeperScript : MonoBehaviour
 {
+    public float sleeperPeriod;
+    public float sleeperSpeed;
     Vector3 myposition = new Vector3(0f,0f,0f);
     public GameObject pillow;
     bool clicked;
@@ -17,6 +19,7 @@ public class sleeperScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        myposition = new Vector3(Mathf.Sin(Time.timeSinceLevelLoad / sleeperPeriod)*sleeperSpeed, 0f, 0f); 
         transform.position = myposition;
         if (clicked == true && GameObject.Find("Pillow(Clone)") == null)
         {
