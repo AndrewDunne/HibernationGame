@@ -24,6 +24,8 @@ public class dayManager : MonoBehaviour
 public static class GlobalVars
 {
     public static int day { get; set; }
-    public static float timeOfDay { get; set; }
+    public static float timeLeft { get; set; }
     public static int completedMinigames { get; set; }
+    public static bool floeDone { get; set; }
+    public static bool sleepDone { get; set; }
 }

@@ -80,6 +80,7 @@ public class sleeperGameScript : MonoBehaviour
         if (gameOver && GameObject.Find(gemTexts[currentGem].name + "(Clone)") == null)
         {
             //Debug.Log(gemTexts[currentGem] + "(Clone)");
+            GlobalVars.sleepDone = true;
             SceneManager.LoadScene(sceneName: "mainMap");
         }
     }

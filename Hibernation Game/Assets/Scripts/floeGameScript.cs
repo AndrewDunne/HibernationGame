@@ -37,7 +37,7 @@ public class floeGameScript : MonoBehaviour
         }
         if (GameObject.Find("floeDialog(Clone)") == null && gameEnded && Time.timeSinceLevelLoad > startTime + 1)
         {
-            GlobalVars.completedMinigames++;
+            GlobalVars.floeDone = true;
             SceneManager.LoadScene(sceneName: "mainMap");
         }
         //if (floesToBreak <= numFloesBroken && !gameEnded)
