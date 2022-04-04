@@ -15,7 +15,7 @@ public class pillowScript : MonoBehaviour
     void Update()
     {
         GetComponent<SpriteRenderer>().color = pillowpacity;
-        pillowpacity.a -= .01f;
+        pillowpacity.a -= .002f;
         if(pillowpacity.a <= 0)
         {
             DestroyObject(gameObject);

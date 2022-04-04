@@ -19,24 +19,20 @@ public class dialogSystem : MonoBehaviour
         initializationTime = Time.timeSinceLevelLoad;
         textInit = false;
         dialogIndex = 0;
+        textMesh.text = dialogs[dialogIndex];
     }
 
     // Update is called once per frame
     void Update()
     {
         bool old = Time.timeSinceLevelLoad - initializationTime > .5; // player can't advance text for first .5 secs, prevents from missing info
-        if (dialogs.Count > 0 && !textInit)
-        {
-            textMesh.text = dialogs[dialogIndex];
-            textInit = true;
-        }
-        if (Input.GetMouseButtonDown(0) && old && textInit)
+        if (Input.GetMouseButtonDown(0) && old)
         {
             if (dialogIndex < numDialogs - 1)
             {
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];
-                //Debug.Log("next");
+                Debug.Log("next");
                 //Debug.Log(dialogs[dialogIndex]);
                 //Debug.Log(dialogs);
                 //Debug.Log(dialogs.Count);
