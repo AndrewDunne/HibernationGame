@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class sleeperGameScript : MonoBehaviour
 {
-    string[] gemNames = new string[] { "Jade", "Rutile", "Bortz", "Diamond" };
-    static bool[] visited = new bool[] { false, false, false, false }; // Will this stay the same even if scene is reloaded?
+    string[] gemNames = new string[] { "Jade", "Rutile", "Benito", "Diamond", "Neptunite" };
+    static bool[] visited = new bool[] { false, false, false, false, false }; // Will this stay the same even if scene is reloaded?
     public GameObject[] gemTexts;
     public GameObject[] areaTexts;
     public GameObject[] gems;
@@ -26,10 +26,10 @@ public class sleeperGameScript : MonoBehaviour
     void Start()
     {
         currentGem = 0;
-        currentGem = Random.Range(0, 4);
+        currentGem = Random.Range(0, 5);
         while (visited[currentGem])
         {
-            currentGem = Random.Range(0, 4);
+            currentGem = Random.Range(0, 5);
         }
         visited[currentGem] = true;
         currentRoom = Random.Range(0, 3);
@@ -102,14 +102,15 @@ public class sleeperGameScript : MonoBehaviour
             if (currentRoom == gemRoom)
             {
                 // spawn sleeper. when pillow dies, that's when gamemanager knows when to start the end dialog
-                Instantiate(gems[0], new Vector3(0f, 0f, 0f), Quaternion.identity);
+                Instantiate(gems[currentGem], new Vector3(0f, 0f, 0f), Quaternion.identity);
+                Debug.Log("Current gem: " + currentGem);
                 Debug.Log("Spawning sleeper");
             }
             else
             {
-                if (GameObject.Find(gems[0].name + "(Clone)") != null)
+                if (GameObject.Find(gems[currentGem].name + "(Clone)") != null)
                 {
-                    Destroy(GameObject.Find(gems[0].name + "(Clone)"));
+                    Destroy(GameObject.Find(gems[currentGem].name + "(Clone)"));
                     Debug.Log("Despawning sleeper");
                 }
             }
@@ -125,14 +126,14 @@ public class sleeperGameScript : MonoBehaviour
             if (currentRoom == gemRoom)
             {
                 // spawn sleeper. when pillow dies, that's when gamemanager knows when to start the end dialog
-                Instantiate(gems[0], new Vector3(0f, 0f, 0f), Quaternion.identity);
+                Instantiate(gems[currentGem], new Vector3(0f, 0f, 0f), Quaternion.identity);
                 //Debug.Log("Spawning sleeper");
             }
             else
             {
-                if (GameObject.Find(gems[0].name + "(Clone)") != null)
+                if (GameObject.Find(gems[currentGem].name + "(Clone)") != null)
                 {
-                    Destroy(GameObject.Find(gems[0].name + "(Clone)"));
+                    Destroy(GameObject.Find(gems[currentGem].name + "(Clone)"));
                     //Debug.Log("Despawning sleeper");
                 }
             }

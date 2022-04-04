@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6838771724286668667}
   - component: {fileID: 6702917288444428712}
   m_Layer: 0
-  m_Name: BortSleepy
+  m_Name: jadeSleepy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 29b394ff6b76fd84d871bf98aa2d7365, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b9ffe0598ffb1574085d3bfcf4688522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,6 +100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sleeperPeriod: 2
   sleeperSpeed: 5
+  sprites:
+  - {fileID: 21300000, guid: b9ffe0598ffb1574085d3bfcf4688522, type: 3}
+  - {fileID: 21300000, guid: 11e31019644ac2d4c861640db9cf7c47, type: 3}
   pillow: {fileID: 1346667041695279826, guid: fb397c556d4840b4abcab036fbd87639, type: 3}
 --- !u!61 &6702917288444428712
 BoxCollider2D:
@@ -118,7 +121,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 14.566667, y: 17.266666}
+    oldSize: {x: 16.25, y: 18}
     newSize: {x: 4.37, y: 5.18}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

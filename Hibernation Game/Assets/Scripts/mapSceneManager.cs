@@ -66,6 +66,7 @@ public class mapSceneManager : MonoBehaviour
     {
 
         GameObject.FindGameObjectWithTag("music").GetComponent<musicScript>().PlayMusic();
+        GameObject.FindGameObjectWithTag("wind").GetComponent<musicScript>().PlayMusic();
         if (GlobalVars.day == 0)
         {
             GlobalVars.day = 1;
