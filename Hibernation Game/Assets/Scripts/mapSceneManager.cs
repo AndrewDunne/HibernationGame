@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class mapSceneManager : MonoBehaviour
 {
@@ -70,10 +71,9 @@ public class mapSceneManager : MonoBehaviour
             GlobalVars.day = 1;
             GlobalVars.eventDone = true;
         }
-        
 
         //Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
-        if(GlobalVars.sleepDone == true && GlobalVars.floeDone == true)
+        if (GlobalVars.sleepDone == true && GlobalVars.floeDone == true)
         {
             GlobalVars.sleepDone = false;
             GlobalVars.floeDone = false;
@@ -95,6 +95,7 @@ public class mapSceneManager : MonoBehaviour
         }
         if (GlobalVars.day == 4)
         {
+            SceneManager.LoadScene(sceneName: "outro");
             // end sequence
         }
 

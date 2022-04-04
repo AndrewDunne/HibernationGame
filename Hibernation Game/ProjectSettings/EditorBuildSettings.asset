@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/floeGame.unity
     guid: 7125d449c107e3044a09786ec5a722a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/outroScene.unity
     guid: 4f05cce3fd7ddc84aa704e257e185cc5
   - enabled: 1
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/credits.unity
     guid: 683e629056af64e44be712587d8a6f6f
+  - enabled: 1
+    path: Assets/Scenes/Events/outro.unity
+    guid: 05f180556f74b0941996509c510f9a09
   m_configObjects: {}
