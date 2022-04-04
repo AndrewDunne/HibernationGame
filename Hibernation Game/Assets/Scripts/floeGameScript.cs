@@ -38,7 +38,8 @@ public class floeGameScript : MonoBehaviour
         if (GameObject.Find("floeDialog(Clone)") == null && gameEnded && Time.timeSinceLevelLoad > startTime + 1)
         {
             GlobalVars.floeDone = true;
-            SceneManager.LoadScene(sceneName: "mainMap");
+            Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+            StartCoroutine(fadeOut(2));
         }
         //if (floesToBreak <= numFloesBroken && !gameEnded)
         //{
@@ -60,5 +61,10 @@ public class floeGameScript : MonoBehaviour
             startTime = Time.timeSinceLevelLoad;
             gameEnded = true;
         }
+    }
+    IEnumerator fadeOut(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(sceneName: "mainMap");
     }
 }

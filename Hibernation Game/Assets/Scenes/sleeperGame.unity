@@ -183,6 +183,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: beab60d849e3e5847ac107376cdf6545, type: 3}
   - {fileID: 21300000, guid: c5cd0564f48a56c4aa196d819829039d, type: 3}
   LRButtons: {fileID: 1406736056479453497, guid: de1e85442ba44144ea677449527cc35f, type: 3}
+  toWhite: {fileID: 7283501415462231356, guid: e68a1ccb9ce3e09468dd1177a705b20a, type: 3}
 --- !u!4 &235357910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8103532292423811460, guid: de1e85442ba44144ea677449527cc35f, type: 3}

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class dayManager : MonoBehaviour
 {
+    public GameObject white;
     // Start is called before the first frame update
     void Start()
     {
+        GlobalVars.toWhite = white;
         if (GlobalVars.day == 0)
         {
             GlobalVars.day = 1;
@@ -30,4 +32,5 @@ public static class GlobalVars
     public static bool sleepDone { get; set; }
     public static bool eventDone { get; set; }
     public static bool intro { get; set; }
+    public static GameObject toWhite { get; set; }
 }

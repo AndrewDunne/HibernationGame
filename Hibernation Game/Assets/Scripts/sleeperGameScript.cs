@@ -85,7 +85,8 @@ public class sleeperGameScript : MonoBehaviour
         {
             //Debug.Log(gemTexts[currentGem] + "(Clone)");
             GlobalVars.sleepDone = true;
-            SceneManager.LoadScene(sceneName: "mainMap");
+            Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+            StartCoroutine(fadeOut(2));
         }
     }
     public void goLeft()
@@ -136,5 +137,10 @@ public class sleeperGameScript : MonoBehaviour
                 }
             }
         }
+    }
+    IEnumerator fadeOut(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(sceneName: "mainMap");
     }
 }

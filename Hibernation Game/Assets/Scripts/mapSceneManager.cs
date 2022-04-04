@@ -16,6 +16,8 @@ public class mapSceneManager : MonoBehaviour
             if (!GlobalVars.sleepDone)
             {
                 SceneManager.LoadScene(sceneName: "sleeperGame");
+                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+                StartCoroutine(fadeOutSleep(2));
             }
             else
             {
@@ -32,6 +34,8 @@ public class mapSceneManager : MonoBehaviour
             if (!GlobalVars.floeDone)
             {
                 SceneManager.LoadScene(sceneName: "floeGame");
+                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+                StartCoroutine(fadeOutFloe(2));
             }
             else
             {
@@ -72,5 +76,15 @@ public class mapSceneManager : MonoBehaviour
         {
             clickable = true;
         }
+    }
+    IEnumerator fadeOutFloe(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(sceneName: "floeGame");
+    }
+    IEnumerator fadeOutSleep(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(sceneName: "sleeperGame");
     }
 }
