@@ -50,11 +50,11 @@ public class mapSceneManager : MonoBehaviour
         {
             if (!GlobalVars.eventDone)
             {
-                if (GlobalVars.day == 1)
+                if (GlobalVars.day == 2)
                 {
                     SceneManager.LoadScene(sceneName: "chordShore");
                 }
-                else if(GlobalVars.day == 2)
+                else if(GlobalVars.day == 3)
                 {
                     SceneManager.LoadScene(sceneName: "cinna");
                 }
@@ -65,18 +65,25 @@ public class mapSceneManager : MonoBehaviour
     {
 
         GameObject.FindGameObjectWithTag("music").GetComponent<musicScript>().PlayMusic();
-
-        if (GlobalVars.eventDone == true)
+        if (GlobalVars.day == 0)
         {
-            DestroyObject(GameObject.Find("eventGame"));
+            GlobalVars.day = 1;
+            GlobalVars.eventDone = true;
         }
+        
 
         //Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
         if(GlobalVars.sleepDone == true && GlobalVars.floeDone == true)
         {
             GlobalVars.sleepDone = false;
             GlobalVars.floeDone = false;
+            GlobalVars.eventDone = false;
             GlobalVars.day++;
+        }
+        if (GlobalVars.eventDone == true)
+        {
+            DestroyObject(GameObject.Find("eventGame"));
+            DestroyObject(GameObject.Find("sparkles"));
         }
         if (GlobalVars.intro == false)
         {

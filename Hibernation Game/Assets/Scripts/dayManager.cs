@@ -10,11 +10,6 @@ public class dayManager : MonoBehaviour
     void Start()
     {
         GlobalVars.toWhite = white;
-        if (GlobalVars.day == 0)
-        {
-            GlobalVars.day = 1;
-        }
-        Debug.Log(GlobalVars.day);
         GlobalVars.Emotes = antarcEmotes;
     }
 

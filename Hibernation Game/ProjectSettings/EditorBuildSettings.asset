@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Events/cinna.unity
     guid: 39659e2d0c6412e41b9d85ab08da442c
+  - enabled: 1
+    path: Assets/Scenes/credits.unity
+    guid: 683e629056af64e44be712587d8a6f6f
   m_configObjects: {}

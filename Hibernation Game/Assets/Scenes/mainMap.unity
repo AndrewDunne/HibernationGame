@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 1359743797}
   - component: {fileID: 1359743796}
   m_Layer: 0
-  m_Name: sparkles_0 (1)
+  m_Name: sparkles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1238,3 +1238,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 95e7f998bfd817a4f91d20cfd81e81c7, type: 3}
   - {fileID: 21300000, guid: 635f07e41e0e030439fc402f4991c8c1, type: 3}
   - {fileID: 21300000, guid: d217985faa47d1f4eb7929d850024db5, type: 3}
+  - {fileID: 21300000, guid: 54572c9ed6811fe4fb8441a52b938dbe, type: 3}
+  - {fileID: 21300000, guid: 861772ab278bdc54d8341dc0f90c5a2c, type: 3}
+  - {fileID: 21300000, guid: c1eb9ade269aa124db10742efc4ea26e, type: 3}
+  - {fileID: 21300000, guid: a0dd186e83bfcf64e9e5fc6c69c3328a, type: 3}
