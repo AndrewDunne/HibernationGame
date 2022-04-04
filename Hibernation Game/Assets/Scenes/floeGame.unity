@@ -916,7 +916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2682082883461782973, guid: a12537f7d77fd844ca92be8e50cfa37a, type: 3}
       propertyPath: dialogs.Array.data[0]
-      value: Time  to  break  some  ice  floes!
+      value: Time  to  break  these floes.
       objectReference: {fileID: 0}
     - target: {fileID: 2682082883461782973, guid: a12537f7d77fd844ca92be8e50cfa37a, type: 3}
       propertyPath: dialogs.Array.data[1]
@@ -930,6 +930,10 @@ PrefabInstance:
       propertyPath: dialogs.Array.data[3]
       value: Even  someone  as  me  can  break  floes  by  striking  along  their 
         cleavage.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2682082883461782973, guid: a12537f7d77fd844ca92be8e50cfa37a, type: 3}
+      propertyPath: emotesIndex.Array.size
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a12537f7d77fd844ca92be8e50cfa37a, type: 3}

@@ -234,8 +234,7 @@ MonoBehaviour:
   - Hmmm...
   - and  Sensei  too.
   - Alright,  let's  see.  What  should  I  do  first?
-  emotesIndex: 000000000100000002000000010000000200000000000000
-  emoteIcons: []
+  emotesIndex: 000000000000000001000000000000000200000000000000
   manager: {fileID: 0}
   numDialogs: 6
 --- !u!1 &5846114751086058565

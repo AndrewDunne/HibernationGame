@@ -229,11 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - So  much  potential...  yet  such  childish  delivery.
-  emotesIndex: 02000000
-  emoteIcons:
-  - {fileID: 21300000, guid: 95e7f998bfd817a4f91d20cfd81e81c7, type: 3}
-  - {fileID: 21300000, guid: 635f07e41e0e030439fc402f4991c8c1, type: 3}
-  - {fileID: 21300000, guid: d217985faa47d1f4eb7929d850024db5, type: 3}
+  emotesIndex: 01000000
   manager: {fileID: 0}
   numDialogs: 1
 --- !u!1 &8582529924587935371
