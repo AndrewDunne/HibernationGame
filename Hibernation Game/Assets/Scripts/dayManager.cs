@@ -5,6 +5,7 @@ using UnityEngine;
 public class dayManager : MonoBehaviour
 {
     public GameObject white;
+    public Sprite[] antarcEmotes;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class dayManager : MonoBehaviour
             GlobalVars.day = 1;
         }
         Debug.Log(GlobalVars.day);
+        GlobalVars.Emotes = antarcEmotes;
     }
 
     // Update is called once per frame
@@ -33,4 +35,5 @@ public static class GlobalVars
     public static bool eventDone { get; set; }
     public static bool intro { get; set; }
     public static GameObject toWhite { get; set; }
+    public static Sprite[] Emotes { get; set; }
 }

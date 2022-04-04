@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class dialogSystem : MonoBehaviour
 {
     public List<string> dialogs;
+    public List<int> emotesIndex;
     int dialogIndex;
     private TextMeshProUGUI textMesh;
     public GameObject manager;
@@ -32,7 +34,8 @@ public class dialogSystem : MonoBehaviour
             {
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];
-                Debug.Log("next");
+                GameObject.Find("DialogEmote").GetComponent<Image>().sprite = GlobalVars.Emotes[emotesIndex[dialogIndex]];
+                //Debug.Log("next");
                 //Debug.Log(dialogs[dialogIndex]);
                 //Debug.Log(dialogs);
                 //Debug.Log(dialogs.Count);
