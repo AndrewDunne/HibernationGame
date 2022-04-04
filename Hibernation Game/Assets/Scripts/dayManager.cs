@@ -6,11 +6,13 @@ public class dayManager : MonoBehaviour
 {
     public GameObject white;
     public Sprite[] antarcEmotes;
+    public AudioClip squeak;
     // Start is called before the first frame update
     void Start()
     {
         GlobalVars.toWhite = white;
         GlobalVars.Emotes = antarcEmotes;
+        GlobalVars.dialogSqueak = squeak;
     }
 
     // Update is called once per frame
@@ -31,4 +33,5 @@ public static class GlobalVars
     public static bool intro { get; set; }
     public static GameObject toWhite { get; set; }
     public static Sprite[] Emotes { get; set; }
+    public static AudioClip dialogSqueak { get; set; }
 }
