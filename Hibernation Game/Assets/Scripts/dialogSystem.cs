@@ -22,6 +22,7 @@ public class dialogSystem : MonoBehaviour
         textInit = false;
         dialogIndex = 0;
         textMesh.text = dialogs[dialogIndex];
+        GameObject.Find("DialogEmote").GetComponent<Image>().sprite = GlobalVars.Emotes[emotesIndex[dialogIndex]];
     }
 
     // Update is called once per frame
