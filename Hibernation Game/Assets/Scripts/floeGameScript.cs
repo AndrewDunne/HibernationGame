@@ -30,7 +30,7 @@ public class floeGameScript : MonoBehaviour
     {
         if (GameObject.Find("DialogBox") == null && !gameStarted)
         {
-            myFloe = Instantiate(floe, new Vector3(0, 0, 0), Quaternion.identity);
+            myFloe = Instantiate(floe, new Vector3(0, 1.5f, 0), Quaternion.identity);
             myTimer = Instantiate(timer, new Vector3(0, 7.5f, 0), Quaternion.identity);
             gameStarted = true;
             startTime = Time.timeSinceLevelLoad;
@@ -48,7 +48,7 @@ public class floeGameScript : MonoBehaviour
         //    gameEnded = true;
 
         //}
-        if (Time.timeSinceLevelLoad > startTime + 30 && !gameEnded)
+        if (Time.timeSinceLevelLoad > startTime + 20 && !gameEnded)
         {
             Destroy(myFloe);
             Destroy(myTimer);

@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884143328720806975}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.03, z: 0}
-  m_LocalScale: {x: 13, y: 13, z: 13}
+  m_LocalPosition: {x: 0.04, y: 3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.33725488, g: 0.7719499, b: 0.9529412, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 051eb688bb18fee4da8a05bd30507502, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec66799ebc93b04cb446909e2f9147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invisSprite: {fileID: 0}
-  floeSprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  invisSprite: {fileID: 21300000, guid: 5ad019cecda83fa44a9fd50dac273a63, type: 3}
+  floeSprite: {fileID: 21300000, guid: 051eb688bb18fee4da8a05bd30507502, type: 3}
   clink: {fileID: 8300000, guid: 8b60c533e8f2e6c45ad17a5b2cefee02, type: 3}
   crash: {fileID: 8300000, guid: 67c942ac9ab27a845a4521ae6054dec9, type: 3}
   shatter: {fileID: 8300000, guid: fc516e9f784b88a478a802c7857a5750, type: 3}
@@ -115,8 +115,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000001, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 18.814106, y: 13.287167, z: 0.20000003}
+  m_Center: {x: -1.0962515, y: -2.3980522, z: 0}
 --- !u!82 &2134241001433707910
 AudioSource:
   m_ObjectHideFlags: 0

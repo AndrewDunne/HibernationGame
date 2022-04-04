@@ -269,6 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b508cdc290ece4fb45471d5a2192a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floeText: {fileID: 2496498182299271412, guid: dfa7a524211f58b4e8e310a375744048, type: 3}
+  sleepText: {fileID: 2496498182299271412, guid: e9085470c590fa84696b4992ca5961cc, type: 3}
 --- !u!1 &900319235
 GameObject:
   m_ObjectHideFlags: 0
