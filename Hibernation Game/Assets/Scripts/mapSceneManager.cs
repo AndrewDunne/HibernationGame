@@ -17,8 +17,8 @@ public class mapSceneManager : MonoBehaviour
             if (!GlobalVars.sleepDone)
             {
                 SceneManager.LoadScene(sceneName: "sleeperGame");
-                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
-                StartCoroutine(fadeOutSleep(2));
+                //Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
+                //StartCoroutine(fadeOutSleep(2));
             }
             else
             {
@@ -35,8 +35,6 @@ public class mapSceneManager : MonoBehaviour
             if (!GlobalVars.floeDone)
             {
                 SceneManager.LoadScene(sceneName: "floeGame");
-                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
-                StartCoroutine(fadeOutFloe(2));
             }
             else
             {
@@ -52,9 +50,14 @@ public class mapSceneManager : MonoBehaviour
         {
             if (!GlobalVars.eventDone)
             {
-                SceneManager.LoadScene(sceneName: "floeGame");
-                Instantiate(GlobalVars.toWhite, new Vector3(53, 10, 0), Quaternion.identity);
-                StartCoroutine(fadeOutFloe(2));
+                if (GlobalVars.day == 1)
+                {
+                    SceneManager.LoadScene(sceneName: "chordShore");
+                }
+                else if(GlobalVars.day == 2)
+                {
+                    SceneManager.LoadScene(sceneName: "cinna");
+                }
             }
         }
     }
