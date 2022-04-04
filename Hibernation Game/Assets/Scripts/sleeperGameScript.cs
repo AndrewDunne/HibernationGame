@@ -49,6 +49,9 @@ public class sleeperGameScript : MonoBehaviour
         gameOver = false;
         GameObject.Find("leftButton").GetComponent<Image>().color = transparent;
         GameObject.Find("RightButton").GetComponent<Image>().color = transparent;
+
+        GameObject.FindGameObjectWithTag("music").GetComponent<musicScript>().PlayMusic();
+
         Instantiate(areaTexts[currentRoom], new Vector3(53, 10, 0), Quaternion.identity, GameObject.Find("Canvas").transform);
     }
 

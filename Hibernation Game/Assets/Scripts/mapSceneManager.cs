@@ -43,6 +43,9 @@ public class mapSceneManager : MonoBehaviour
     }
     void Start()
     {
+
+        GameObject.FindGameObjectWithTag("music").GetComponent<musicScript>().PlayMusic();
+
         Debug.Log("Num minigames completed: " + GlobalVars.completedMinigames.ToString());
         if(GlobalVars.sleepDone == true && GlobalVars.floeDone == true)
         {
@@ -61,6 +64,7 @@ public class mapSceneManager : MonoBehaviour
         {
             // end sequence
         }
+
     }
     void Update()
     {

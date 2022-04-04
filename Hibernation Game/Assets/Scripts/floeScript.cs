@@ -55,8 +55,8 @@ public class floeScript : MonoBehaviour
             SFX.pitch = myPitch;
             if(distance < 50)
             {
-                SceneSource.PlayOneShot(crash, .1F);
-                SceneSource.PlayOneShot(shatter, .1F);
+                SceneSource.PlayOneShot(crash, .15F);
+                SceneSource.PlayOneShot(shatter, .15F);
                 health = 0;
             }
             else
