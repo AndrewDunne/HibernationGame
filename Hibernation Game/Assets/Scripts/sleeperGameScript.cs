@@ -13,6 +13,7 @@ public class sleeperGameScript : MonoBehaviour
     int currentGem;
     int currentRoom; // Room 0 is main corridor, 1 is medical area, 2 is dormitories
     // Start is called before the first frame update
+    int gemRoom; // Room that sleeper is in
     public Sprite[] backgrounds;
     public GameObject LRButtons;
     bool gameStarted;
@@ -25,8 +26,17 @@ public class sleeperGameScript : MonoBehaviour
         {
             currentGem = Random.Range(1, 4);
         }
-        Debug.Log(currentGem);
-        Debug.Log(gemNames[currentGem-1]);
+        currentRoom = Random.Range(0, 3);
+        GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[currentRoom];
+        gemRoom = Random.Range(0, 3);
+        while (gemRoom == currentRoom)
+        {
+            gemRoom = Random.Range(0, 3);
+        }
+        Debug.Log("Gem#: " + currentGem);
+        Debug.Log("Gem name: " + gemNames[currentGem-1]);
+        Debug.Log("Current room: " + currentRoom);
+        Debug.Log("Gem room: " + gemRoom);
         gameStarted = false;
         GameObject.Find("leftButton").GetComponent<Image>().color = transparent;
         GameObject.Find("RightButton").GetComponent<Image>().color = transparent;
@@ -54,10 +64,40 @@ public class sleeperGameScript : MonoBehaviour
             currentRoom = 2;
         }
         GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[currentRoom];
+        if(currentRoom == gemRoom)
+        {
+            // spawn sleeper. when pillow dies, that's when gamemanager knows when to start the end dialog
+            Instantiate(gems[0], new Vector3(0f, 0f, 0f), Quaternion.identity);
+            Debug.Log("Spawning sleeper");
+        }
+        else
+        {
+            if(GameObject.Find(gems[0].name + "(Clone)") != null)
+            {
+                Destroy(GameObject.Find(gems[0].name + "(Clone)"));
+                Debug.Log("Despawning sleeper");
+            }
+        }
     }
     public void goRight()
     {
         currentRoom = (currentRoom + 1) % 3;
         GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[currentRoom];
+
+        if (currentRoom == gemRoom)
+        {
+            // spawn sleeper. when pillow dies, that's when gamemanager knows when to start the end dialog
+            Instantiate(gems[0], new Vector3(0f, 0f, 0f), Quaternion.identity);
+            //Debug.Log("Spawning sleeper");
+        }
+        else
+        {
+            if (GameObject.Find(gems[0].name + "(Clone)") != null)
+            {
+                Destroy(GameObject.Find(gems[0].name + "(Clone)"));
+                //Debug.Log("Despawning sleeper");
+            }
+        }
     }
+
 }

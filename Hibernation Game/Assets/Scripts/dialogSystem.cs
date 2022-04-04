@@ -37,9 +37,9 @@ public class dialogSystem : MonoBehaviour
                 dialogIndex++;
                 textMesh.text = dialogs[dialogIndex];
                 //Debug.Log("next");
-                Debug.Log(dialogs[dialogIndex]);
-                Debug.Log(dialogs);
-                Debug.Log(dialogs.Count);
+                //Debug.Log(dialogs[dialogIndex]);
+                //Debug.Log(dialogs);
+                //Debug.Log(dialogs.Count);
             }
             else
             {

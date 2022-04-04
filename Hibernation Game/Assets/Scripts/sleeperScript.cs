@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class sleeperScript : MonoBehaviour
 {
@@ -20,7 +21,9 @@ public class sleeperScript : MonoBehaviour
     void OnMouseDown()
     {
         //instantiate pillow at mouse
-        Vector3 mousePos = Input.mousePosition;
-        Instantiate(pillow, mousePos, Quaternion.identity);
+        Vector3 spawnPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        spawnPosition.z = 0.0f;
+        Debug.Log("Spawning pillow");
+        Instantiate(pillow, spawnPosition, Quaternion.identity);
     }
 }
